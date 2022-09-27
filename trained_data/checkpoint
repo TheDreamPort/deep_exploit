@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/competitor/workspace/machine_learning_security/DeepExploit/trained_data/DeepExploit.ckpt"
+all_model_checkpoint_paths: "/home/competitor/workspace/machine_learning_security/DeepExploit/trained_data/DeepExploit.ckpt"

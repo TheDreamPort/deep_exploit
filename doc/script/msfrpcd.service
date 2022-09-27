@@ -1,0 +1,11 @@
+[Unit]
+Description=Metasploit Framework RPC Daemon
+After=postgresql.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/msfrpcd -f -U test -P test1234 -S -p 55553
+PIDFile=/run/msfrpcd.pid
+
+[Install]
+WantedBy=multi-user.target
